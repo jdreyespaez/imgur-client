@@ -15,9 +15,12 @@ module.exports = React.createClass({
   componentWillMount: function() {
     Actions.getImages(this.props.params.id);
   },
+  componentWillReceiveProps: function(nextProps){
+    Actions.getImages(nextProps.params.id);
+  },
   render: function() {
     return <div>
-      
+
     </div>
   },
   onChange: function(evente, images) {
