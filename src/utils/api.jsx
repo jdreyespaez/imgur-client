@@ -1,4 +1,4 @@
-var Fecth = require('wathwg-fecth');
+var Fecth = require('whatwg-fetch');
 var rootUrl = 'https://api.imgur.com/3/';
 var apiKey = '486041ea4dc0878';
 
